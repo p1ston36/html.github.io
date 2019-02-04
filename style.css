@@ -1,0 +1,89 @@
+body, html{
+	margin: 0px;
+}
+#body{
+	height: 800px;
+	width: 70%;
+	min-width: 450px;
+	background-color: #d3d3d3;
+	margin: 0px auto;
+	padding: 5px;
+}
+.head{
+	color:	white;
+	text-align: center;
+	font-size: 30px;
+	background-color: #3f505c;
+	height: 100px;
+}
+.body{
+	height: 700px;
+	width: 100%;
+	display: flex;
+	background-color: green;
+}
+.left{
+	height: 100%;
+	width: 33%;
+	min-width: 200px;
+	background: linear-gradient(to right,#424242,#6e6e6e);
+}
+.right{
+	color: rgb(8,75,173);
+	padding-left: 5px;
+	background-color: white;
+	width: 67%;
+	height: 100%;
+}
+.photo{
+	min-width: 30px;
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.name{
+	margin: 10px auto;
+	width: 80%;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	border-bottom: 3px solid rgb(255,255,0);
+}
+.hobby div{
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+}
+.cont li{
+	font-size: 20px;
+	margin-top: 2px;
+}
+.right div{
+	font-size: 25px;
+	border-bottom: 2px solid rgb(0,128,255);
+	width: 90%;
+	padding-top: 5px;
+	margin-left: 10px;
+}
+.right p{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.right ul{
+	padding-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 15px;
+
+}
+.right li{
+	list-style-type: none;
+	font-size: 20px;
+}
+.right li:before {
+	content: "✔ ";
+}
